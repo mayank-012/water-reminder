@@ -139,7 +139,7 @@ const App = () => {
     const querySnapshot = await getDocs(q);
 
     if (querySnapshot.empty) {
-      // playSound("public/assets/drank.wav");
+      playSound("/assets/drank.wav");
             notify("You earned a badge of Hydration Master!");
       await addDoc(badgesRef, {
         userId: user.uid,
