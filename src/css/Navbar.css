@@ -1,0 +1,36 @@
+
+
+.navbar {
+    width: 100%;
+    background-color: #f1f1f160;
+    backdrop-filter: blur(16px);
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    top: 0px;
+    position: sticky;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar li {
+    margin-left: 20px;
+  }
+  
+  .navbar button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .navbar button:hover {
+    background-color: #d32f2f;
+  }
+  

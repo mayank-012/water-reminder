@@ -1,0 +1,19 @@
+.social-share{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width:20vw;
+}
+
+@media (max-aspect-ratio: 1/1){
+    .social-share{
+        width: 80vw;
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,131 @@
+.container {
+    padding: 0px;
+    text-align: center;
+    background-color: #f0f8ff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100vw;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .subcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  .typography-h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .typography-h2 {
+    font-size: 1.5rem;
+    color: #34495e;
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+    margin: 20px 0;
+  }
+  
+  .zebra-image {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .box {
+    margin-top: 20px;
+  }
+  
+  .typography-body1 {
+    font-size: 1rem;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 5px;
+  }
+  
+  .button-primary {
+    background-color: #3498db;
+  }
+  
+  .button-primary:hover {
+    opacity: 0.9;
+  }
+  
+  .button-secondary {
+    background-color: #e74c3c;
+  }
+  
+  .button-secondary:hover {
+    opacity: 0.9;
+  }
+  
+  .footer {
+    color: #95a5a6;
+    background-color: #f1f1f160;
+    backdrop-filter: blur(16px);
+    padding-top: 14px;
+    padding-bottom: 14px;
+    
+    width: 100%;
+    text-align: center;
+    position: sticky;
+    bottom: 0vh;
+  }
+  
+  
+  @media (max-aspect-ratio: 1/1){
+    .subcontainer {
+      flex-direction: column;
+      padding-bottom: 20px;
+    }
+  
+    .typography-h1 {
+      font-size: 2rem;
+    }
+  
+    .typography-h2 {
+      font-size: 1.25rem;
+    }
+  
+    .typography-body1 {
+      font-size: 0.875rem;
+    }
+  
+    .button {
+      font-size: 0.875rem;
+      padding: 8px 16px;
+    }
+  
+    .container {
+      padding: 15px;
+    }
+  
+    .zebra-image {
+      max-width: 100%;
+    }
+  
+}
+  
+    
+  

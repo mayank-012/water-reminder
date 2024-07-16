@@ -1,0 +1,66 @@
+
+
+.badges-container {
+    padding: 20px;
+    background-color: #f1f1f1;
+    
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width:20vw;
+  }
+  
+  .badges-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .badges-list {
+    list-style: none;
+    padding: 0;
+
+  }
+  
+  .badge-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    justify-content: center;
+
+  }
+  
+  .badge-item:last-child {
+    border-bottom: none;
+  }
+  
+  .badge-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+  }
+  
+  .badge-details {
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  .badge-name {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .badge-date {
+    color: #999;
+    font-size: 0.9em;
+  }
+  
+  
+  @media (max-aspect-ratio: 1/1){
+    .badges-container {
+      margin-top: 20px;
+      width:80vw;
+    }
+  }
+  

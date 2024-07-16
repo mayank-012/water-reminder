@@ -1,0 +1,44 @@
+.container-1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  
+}
+
+.container-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container-3{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+body{
+    background-color: #f0f8ff;
+}
+
+@media (max-aspect-ratio: 1/1){
+    .container-1{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .container-2{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .container-3{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+}

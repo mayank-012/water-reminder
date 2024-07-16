@@ -1,0 +1,89 @@
+
+
+.user-profile {
+   
+  width: 20vw;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .user-profile h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .user-profile form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-profile form div {
+    margin-bottom: 15px;
+  }
+  
+  .user-profile form label {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .user-profile form input,
+  .user-profile form select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .user-profile form button {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .user-profile form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .user-profile div p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .user-profile button {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .user-profile button:hover {
+    background-color: #c82333;
+  }
+  
+  @media (max-aspect-ratio: 1/1){
+    .user-profile{
+      margin-top: 20px;
+        width: 80vw;
+    }
+}
