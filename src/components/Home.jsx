@@ -48,7 +48,7 @@ const Home = () => {
         </div>
         <div className="right">
           <div className="image-container">
-            <img src="/assets/zebra.jpeg" alt="Zebra holding a glass of water" className="zebra-image" />
+            <img src="public/assets/zebra.jpeg" alt="Zebra holding a glass of water" className="zebra-image" />
           </div>
         </div>
       </div>
